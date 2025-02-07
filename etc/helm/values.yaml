@@ -1,8 +1,8 @@
 replicaCount: 1
 
 image:
-  repository: /echo-server
-  tag: latest
+  repository: skajames/echo-server
+  tag: 0.0.2
   pullPolicy: IfNotPresent
 
 service:
